@@ -3,8 +3,8 @@ properties([pipelineTriggers([githubPush()])])
 pipeline {
     environment {
         // Global 변수 선언
-        dockerRepo = "ubomi/alqhdb963~"
-        dockerCredentials = 'docker_ci_edu1'
+        dockerRepo = "ubomi/edu1"
+        dockerCredentials = 'docker_ci_edu12'
         dockerImageVersioned = ""
         dockerImageLatest = ""
     }
